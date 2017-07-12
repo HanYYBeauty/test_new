@@ -64,7 +64,7 @@ int main()
 	long  v4[4] = {10003,20001,1411325632784,1411325731213};
 	long  v2[4] = {10001,20001,1411325632683,1411325731213};
     long  v3[4] = {10002,20000,1411325508697,1411325726810};
-	long  v4[4] = {10003,20001,1411325632784,1411325731213};
+    printf("zhangpengshishadiao");
     vector<vector<long > > data;
     data.push_back(vector<long >(v1,v1+4));
     data.push_back(vector<long >(v2,v2+4));
@@ -74,3 +74,5 @@ int main()
     cout<<getMaxPool(data)<<endl; 
     return 0;
 }
+
+
